@@ -1,35 +1,56 @@
 body {
     margin:0px;
+    font-family: Roboto;
     
     
 }
 
 
-#container-fluid{
-    /*display:flex;*/
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+#home {
     width: 100%;
-    height: 100vh;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+   
+    align-content: flex-start;
+    flex-wrap: wrap;
     background-image: url("../img/fondo.jpg");
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;}
+      
 }
 
-#nav-color{
+#botones {
+
+    height: 20%;
+    width: 70% ;
+    font-size: 20px;
     color: #fff;
+    word-spacing: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
-
-#nav-principal{
-    padding-top: 12px;
-    margin-right: 12PX;
-}
-
-.fab {
-    font-family: "Font Awesome 5 Brands";
+#nav a {font: 16px Roboto;
     color: #fff;
-    margin-top: 13px;
-    margin-left: 26px;
-    margin-right: 12px;
+    line-height: 12px;
+    justify
+    word-spacing: 14px;
+    text-decoration: none;}
+
+#logo {
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 10px;
+    
 }
+
+#logo img {
+    width: 25%;
+    margin-top: 45px;
+    margin-left: 45px;
+    
+}
+
